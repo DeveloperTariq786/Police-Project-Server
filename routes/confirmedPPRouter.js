@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const ConfirmedPPModel = require('../models/confirmedPPModel');
+const ConfirmedPPModel = require('../models/ConfirmedPPModel');
 const bodyParser = require('body-parser');
 router.use(bodyParser.json());
 
